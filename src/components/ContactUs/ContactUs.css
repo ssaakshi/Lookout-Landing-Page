@@ -1,0 +1,44 @@
+.contact-us{
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap:48px;
+    align-items: center;
+}
+
+.contact-us .contact-us-heading{
+    text-align: center;
+}
+
+.contact-us .contact-us-heading .blue-heading{
+    color: #437EF7;
+}
+
+.contact-us-heading-desc{
+    font-size: larger;
+    font-weight: 600;
+    width:80%;
+    margin:auto;
+}
+
+.contact-us .input-field-contact {
+    width:270px;
+}
+
+.input-field-contact {
+    border-radius: 5px;
+    width:80%;
+    height:40px;
+    padding-left: 11px;
+    border-style: solid;
+    border-color: #DAE0E6;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    min-width: 50px;
+    
+}
+
+.btn-contact {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

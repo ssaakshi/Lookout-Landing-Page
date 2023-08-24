@@ -1,0 +1,19 @@
+.main-div{
+    display: flex;
+    align-items: center;
+    gap:16px;
+    min-width: 50px;
+    max-width: 280px;
+    font-size: .9rem;
+
+}
+.main-div svg{
+    min-width: 26px;
+}
+
+@media (max-width: 600px) {
+    .main-div{
+        max-width: var(--max-width)
+    }
+
+}

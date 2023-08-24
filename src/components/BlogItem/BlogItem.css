@@ -1,0 +1,121 @@
+.blog-items-wrapper{
+    width:48%;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    max-height:100%;
+}
+
+.blog-image-wrapper {
+    aspect-ratio: 5/3;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 12px;
+
+}
+
+.blog-image:hover{
+    transform: scale(1.1);
+}
+
+.blog-image2:hover{
+    transform: scale(1.1);
+}
+
+.blog-image-wrapper .blog-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.blog-items-wrapper .blog-description{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.blog-items-wrapper2{
+    width:50%;
+    display: flex;
+    gap:12px;
+}
+
+.blog-image-wrapper2 {
+    aspect-ratio: 16/9;
+    width: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 12px;
+    /* min-width: 50%; */
+}
+
+.blog-image-wrapper2 .blog-image2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+/* .blog-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+
+} */
+
+.blog-description{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    height:30%
+}
+
+
+@media (max-width:900px) {
+    .blog-items-wrapper{
+        width:100%;
+    }
+    .blog-image-wrapper{
+        aspect-ratio: 8/3;
+    }
+
+    .blog-items-wrapper2{
+        width:100%;
+        /* align-items: center; */
+    }
+
+    .blog-image-wrapper2{
+        aspect-ratio: 4/3;
+        width: 20%;
+    }
+
+}
+
+@media (max-width:750px) {
+    .blog-items-wrapper{
+        width:100%;
+    }
+
+    .blog-image-wrapper{
+        aspect-ratio: 8/3;
+    }
+
+    .blog-items-wrapper2{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .blog-image-wrapper2{
+        aspect-ratio: 8/3;
+        width: 100%;
+    }
+
+}

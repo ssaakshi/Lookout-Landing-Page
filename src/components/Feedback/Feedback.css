@@ -1,0 +1,38 @@
+.feedback-section{
+    background-color: #2B63D9;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap:48px;
+    align-items: center;
+}
+
+.feedback-section h2{
+    color: #FFFFFF;
+}
+
+.feedback-section .description{
+    color:#B1CCFB;
+    max-width: 80%;
+    margin:auto;
+}
+
+.feedback-section .feedback-haeding{
+    text-align: center;
+}
+
+.feedback-section .feedback-button{
+    background-color: #437EF7;
+    width: max-content;
+
+}
+
+.feedback-section .feedback-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    max-width:1300px;
+    /* text-align: center; */
+    padding: 0px 10px;
+}
